@@ -1,0 +1,56 @@
+body {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0%;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: Arial;
+  color: #fff;
+  mix-blend-mode: overlay;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+}
+
+.panel.active{
+  width: 80vw;
+}
+
+.container > div {
+  flex-direction: column;
+  margin: 0 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 10vw;
+  border-radius: 50px;
+}
+
+.panel:nth-child(1) {
+  background-image: url("./img/sepehr-darvishzadeh-CICSh-hB-lM-unsplash.jpg");
+}
+
+.panel:nth-child(2) {
+  background-image: url("./img//cristi-ursea-0VtmxRH5Zo4-unsplash.jpg");
+}
+
+.panel:nth-child(3) {
+  background-image: url("./img/jazmin-quaynor-qApWjd0g1gw-unsplash.jpg");
+}
+
+.panel:nth-child(4) {
+  background-image: url("./img/kentaro-toma-5dKLbAADahA-unsplash.jpg");
+}
+
+.panel:nth-child(5) {
+  background-image: url("./img/willian-justen-de-vasconcellos-sae9bt6hhJ0-unsplash.jpg");
+}
