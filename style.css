@@ -20,6 +20,10 @@ h2 {
   width: 90vw;
 }
 
+.panel {
+  transition: 1s;
+}
+
 .panel.active{
   width: 80vw;
 }

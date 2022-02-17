@@ -1,9 +1,14 @@
-function setClassActive() {
-  let element = document.getElementsByClassName("panel");
-  removeActiveClass();
-  element.classList.add("active");
-}
+const elements = document.querySelectorAll('.panel');
 
-function removeActiveClass() {
-  element.classList.remove("active");
-}
+elements.forEach(a => {
+  a.addEventListener('click', () => {
+    removeActiveClasses();
+    a.classList.add('active');
+  });
+});
+
+function removeActiveClasses() {
+  elements.forEach(a => {
+    a.classList.remove('active');
+  });
+};
